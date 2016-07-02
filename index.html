@@ -21,9 +21,21 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
 
+  <h2>レイアウト分割</h2>
+  <div id="header" class="container" style="background:red;">header</div>
+
+  <div class="container">
+     <div class="row">
+        <div class="col-sm-3" style="background:pink;">Side1</div>
+        <div class="col-sm-6" style="background:green;">Main</div>
+        <div class="col-sm-3" style="background:gray;">Side2</div>
+      </div> 
+  </div>
+
+  <h2>ボタン</h2>
 	<button type="button" class="btn btn-success">ボタン1</button>
+  <button type="button" class="btn btn-danger">ボタン2</button>
 	<button type="button" class="btn btn-danger">ボタン2</button>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
